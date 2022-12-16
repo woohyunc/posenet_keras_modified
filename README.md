@@ -1,7 +1,7 @@
 # PoseNet-Keras-Modified
 **Implementation of [PoseNet](http://mi.eng.cam.ac.uk/projects/relocalisation/)** using Keras/Tensorflow.
 
-Improved to be able to train and predict between images with different aspect ratios accurately.
+Modified to be able to train and predict between images with different aspect ratios accurately.
 
 Predicts to within 3m/3° for images with the same aspect ratio and 10m/20° for images with different aspect ratios. Original Posenet architecture returns over 25m/30° of error for images with different aspect ratios. 
 
